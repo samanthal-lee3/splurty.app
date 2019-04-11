@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto');
+
 .clear {
   clear: both;
 }
@@ -22,17 +24,17 @@
     }
 
 .slogan {
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     padding-top: 26px;
     font-size: 25px;
   }
 .links {
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     padding-top: 26px;
 }
 
 .links a {
+  font-family: 'Roboto', sans-serif;
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
@@ -43,5 +45,15 @@ header {
 
 hr {
  clear: both; 
- 
+
+}
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
