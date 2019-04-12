@@ -33,6 +33,23 @@
     <hr />
 
     <br class ="clear"/>
+
+    <div class ="container">
     <%= yield %>
+    </div>
+
+    <div class ="footer">
+      <div class = "container">
+        <div class ="row">
+          <div class ="col-6">
+           <%= link_to "More positive thoughts, please!", "#", class: 'next-quote'%>
+          </div>
+          <div class = "col-6 footer-blurb">
+          Created by <a href = "https://samantha-lee-bio.netlify.com/"> Samantha Lee </a><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
