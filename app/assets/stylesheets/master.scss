@@ -1,7 +1,5 @@
 @import "bootstrap";
 
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto');
-
 .clear {
   clear: both;
 }
@@ -24,7 +22,7 @@
     }
 
 .slogan {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'quicksandregular';
     font-weight: bold;
     padding-top: 26px;
     font-size: 25px;
@@ -34,7 +32,7 @@
 }
 
 .links a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'quicksandbold';  
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
@@ -48,12 +46,13 @@ hr {
 
 }
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'quicksandregular';
   font-weight: 600;
   letter-spacing: -1.5px;
 }
 h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'quicksanditalic';
   font-weight: 600;
+  font-style: italic;
   letter-spacing: -1.5px;
 }
