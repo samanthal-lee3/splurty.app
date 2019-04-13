@@ -12,6 +12,7 @@
   <body>
     <header class = "row">
       <div class ="col-3">
+        <%= link_to root_path, class: 'logo' do%>
         <div class="circle">
           <br />
           OMG
@@ -20,12 +21,13 @@
           <br />
           LADIES!
           </div>
+        <% end %>
       </div>
       <div class="col-5 slogan">
         Empowering badass ladies!
       </div>
       <div class="col-4 links">
-        <%= link_to 'Contribute', '#'%>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#'%>
       </div>
     </header>
@@ -42,7 +44,7 @@
       <div class = "container">
         <div class ="row">
           <div class ="col-6">
-           <%= link_to "More positive thoughts, please!", "#", class: 'next-quote'%>
+           <%= link_to "More positive thoughts, please!", root_path, class: 'next-quote'%>
           </div>
           <div class = "col-6 footer-blurb">
           Created by <a href = "https://samantha-lee-bio.netlify.com/"> Samantha Lee </a><br />
