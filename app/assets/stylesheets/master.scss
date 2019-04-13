@@ -78,3 +78,26 @@ h2 {
   font-family: 'quicksanditalic';
 
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'quicksanditalic';
+
+}
+
+.modal-body {
+  font-style: italic;
+}
+
+.title {
+  font-family: quicksandregular;
+  color: #dddddd;
+}
+::selection {
+  background-color: #ef5368;
+}
