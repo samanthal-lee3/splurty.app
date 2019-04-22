@@ -1,4 +1,3 @@
-# README
 
 #I created the Splurty app as a web developer student with the University of Denver Coding Bootcamp. 
 
