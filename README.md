@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Splurty was built by Samantha, a web developer student with the University of Denver Coding Bootcamp. As a woman learning the skills necessary to ender the world of web development, Samantha create this application to inspire both herself and other awesome women taking steps to make industry wide change.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app was built with Ruby 2.5.3p105 and postgresql database.
