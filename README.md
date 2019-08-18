@@ -1,12 +1,32 @@
 
 # README
 
-#I created the Splurty app as a web developer student with the University of Denver Coding Bootcamp. 
+## Overview:
 
-#As a woman learning the skills necessary to ender the world of web development, Samantha create this application to inspire both herself and other awesome women taking steps to make industry wide change.
+Splurty Application: This random quote generator was built as a tool for women to access for their daily dose of inspiration and empowerment! Users can contribute valid quotations to the database that are generated randomly to display on the homepage.
 
-#This app is the first app of my course and has taught me a lot about accessing databases, creating routes, and designing pages.
+## Production:
 
-#This app was built with Ruby 2.5.3p105 and postgresql database.
+Open this app using Heroku: 
+https://splurty-samantha-lee.herokuapp.com/
 
+## Views:
 
+### Application Home Page View
+![home](https://user-images.githubusercontent.com/49353329/63223969-7b9ccf80-c18b-11e9-98b9-7f60c72d7341.JPG)
+
+### About Page View
+![about](https://user-images.githubusercontent.com/49353329/63223973-85263780-c18b-11e9-8df7-2006b8da9598.JPG)
+
+### Quote Contribution Form
+![form](https://user-images.githubusercontent.com/49353329/63223977-8bb4af00-c18b-11e9-88e6-39d43d18eef1.JPG)
+
+### Application Details:
+
+* Ruby version: 2.5.3
+
+* Built using: Ruby on Rails, HTML5, CSS
+
+* Database creation: postgresql
+
+* Database initialization: April 2019
